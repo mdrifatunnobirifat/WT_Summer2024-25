@@ -41,18 +41,19 @@
         }
         if (st==true)
             {
-                console.log(name+" is a student");
+                console.log(name+"= (status is student)");
             }
         else
             {
-                console.log(name+" is not a student");
+                console.log(name+"= (status is not student)");
             }
 
         console.log("\n\n");
 
 
         function summ(status)
-        {
+        {   
+            console.log("this is summary");
             console.log(name+' is a '+status+".");
         }
 
