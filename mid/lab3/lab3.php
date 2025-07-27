@@ -18,8 +18,9 @@
         console.log("Student Status: ",st);
         console.log("result:",re);
         document.write("",name);//just trying
+        console.log("--------");
 
-        console.log("/n");
+        console.log("\n");
         var x=11;
         var y=10;
         var n=10.30;
@@ -54,13 +55,13 @@
         function summ(status)
         {   
             console.log("this is summary");
-            console.log(name+' is a '+status+".");
+            console.log(name+' is a '+status+" .");
         }
 
         summ('student');
         function show()
         {
-            alert("this student's result is"+re+"/n"+"and he is passed");
+            alert("this student's result is"+re+" & "+" he is passed");
             console.log("Button is clicked");
         }
     
